@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4sp"
+        android:weightSum="2"
+        
+         >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/teal"
+            android:text="@string/cancel"
+            android:onClick="cancelPressed"
+            android:paddingRight="4sp" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/teal"
+            android:text="@string/done"
+            android:onClick="okPressed"
+            android:paddingLeft="4sp"
+             />
+        
+        
+
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:orientation="horizontal" 
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:weightSum="5" >
+        
+	 <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="4"
+         android:gravity="start" >
+        <TextView
+            android:id="@+id/itemView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+           
+             />
+        
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/itemView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/on"
+            android:padding="4sp"
+            android:gravity="end"
+             />
+        <TextView
+            android:id="@+id/itemView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/off"
+            android:padding="4sp" />
+        
+        <TextView
+            android:id="@+id/itemView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/nochange"
+            android:padding="4sp" />
+
+         </LinearLayout>
+         
+     
+      </LinearLayout>
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="2sp"
+    android:background="@drawable/list_divider"/>
+    <ListView 
+        android:id="@+id/list2"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/teal"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1sp"
+    />
+    
+    
+
+</LinearLayout>

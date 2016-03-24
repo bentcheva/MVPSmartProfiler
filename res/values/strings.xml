@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartProfiler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="noprofile">No profile</string>
+    <string name="weekdays">week days</string>
+    <string name="weekend">Weekend</string>
+    <string name="meeting">Meeting</string>
+    <string name="content_authority">com.examples.smartprofiler</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add"></string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="hint_name">Profile Name</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="nochange">No Change</string>
+    <string name="name">Name</string>
+    <string name="wifi">WiFi</string>
+    <string name="sound">Sound</string>
+    <string name="mobile">Mobile Data</string>
+    <string name="vibration">Phone Vibration</string>
+    <string name="starttime">Start time</string>
+    <string name="stoptime">Stop time</string>
+    <string name="close">Close</string>
+
+</resources>
